@@ -1,0 +1,2 @@
+# Infinite Narrative Engine - No external dependencies required
+# Pure Python implementation for maximum token generation
