@@ -1,29 +1,43 @@
-# Infinite Narrative Engine
+# Infinite Dating Simulator Engine v3.0
 
-A massive procedural text generation engine designed to consume the maximum number of tokens possible.
+A massive procedural dating simulator with full GUI, generating up to 1M+ tokens of romantic narrative.
 
 ## Features
 
-- Procedural Name Generation (50,000+ combinations)
-- World Building System (20 nations, 20 biomes, 20 features)
-- Character Generator (35 classes, 20 races, 150+ attributes)
-- Spell Catalog (50+ spells across 33 schools)
-- Loot & Item System (500+ items across 10 rarities)
-- Quest Generator (15 quest types, 30+ objectives)
-- Dialogue Engine (35 speakers, 500+ dialogue lines)
-- Combat System (50+ attack types, 20 weather systems)
-- Weather Engine (27 weather types, 5 severities)
-- Recursive Story Generator
-- 100 Legendary Artifacts
+- **30 Love Interests** with unique stats, personalities, and backstories
+- **20 Date Locations** with different activities and atmospheres
+- **20 Gift Types** with affection bonuses
+- **Full Relationship System** - dates, gifts, confessions, breakups
+- **Compatibility Reports** for each partner
+- **Interactive GUI** with real-time stats and controls
+- **Save/Load** game state
+- **Procedural Narrative** generating 1M+ tokens
+
+## Files
+
+- `main.py` - Core engine
+- `gui.py` - Interactive tkinter GUI
+- `characters.py` - Character/partner generator
+- `dates.py` - Dating simulator mechanics
+- `narrative.py` - Narrative generator
+- `config.json` - Configuration
 
 ## Usage
 
 ```bash
+# CLI mode
 python main.py [token_target]
+
+# GUI mode
+python gui.py
 ```
 
-Default token target: 999,999
+## Default Token Target
 
-## Output
+999,999 tokens per run
 
-All generated narrative is saved to `output/narrative_output_[timestamp].txt`
+## Quick Start
+
+1. `python main.py 500000` for CLI
+2. `python gui.py` for interactive GUI
+3. Watch the magic happen
